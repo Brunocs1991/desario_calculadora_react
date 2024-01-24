@@ -1,10 +1,11 @@
 import {Container, Content} from "./styles";
+import Input from "./components/Input";
 
 const App = () => {
     return (
         <Container>
             <Content>
-                Olá
+                <Input/>
             </Content>
         </Container>
     )

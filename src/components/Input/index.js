@@ -1,6 +1,10 @@
+import {InputContainer} from "./styles";
+
 const Input = () => {
     return (
-        <div>Input</div>
+        <InputContainer>
+            <input/>
+        </InputContainer>
     );
 }
 
