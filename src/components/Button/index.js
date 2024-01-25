@@ -7,7 +7,7 @@ const Button = ({label, onClick}) => {
 }
 
 Button.propTypes = {
-    label: PropTypes.string, // Assuming label is a required string
-    onClick: PropTypes.func, // Assuming onClick is a required function
+    label: PropTypes.string,
+    onClick: PropTypes.func,
 };
 export default Button;
